@@ -12,13 +12,14 @@
 		4997A39B1922968600F53941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997A39A1922968600F53941 /* UIKit.framework */; };
 		4997A3A11922968600F53941 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4997A39F1922968600F53941 /* InfoPlist.strings */; };
 		4997A3A31922968600F53941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3A21922968600F53941 /* main.m */; };
-		4997A3A71922968600F53941 /* MFNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3A61922968600F53941 /* MFNAppDelegate.m */; };
 		4997A3A91922968600F53941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4997A3A81922968600F53941 /* Images.xcassets */; };
 		4997A3B01922968600F53941 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997A3AF1922968600F53941 /* XCTest.framework */; };
 		4997A3B11922968600F53941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997A3961922968600F53941 /* Foundation.framework */; };
 		4997A3B21922968600F53941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997A39A1922968600F53941 /* UIKit.framework */; };
 		4997A3BA1922968600F53941 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4997A3B81922968600F53941 /* InfoPlist.strings */; };
-		4997A3BC1922968600F53941 /* TheBowlingGameKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3BB1922968600F53941 /* TheBowlingGameKataTests.m */; };
+		4997A3C61922974400F53941 /* TheBowlingGameKataTestsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3C51922974400F53941 /* TheBowlingGameKataTestsSpec.m */; };
+		4997A3CD19229AAE00F53941 /* MFNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3CC19229AAE00F53941 /* MFNAppDelegate.m */; };
+		72C8E02A80B2447E9B3E6B59 /* libPods-TheBowlingGameKataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E590B16A64C40C4A80AE248 /* libPods-TheBowlingGameKataTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +41,16 @@
 		4997A3A01922968600F53941 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4997A3A21922968600F53941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4997A3A41922968600F53941 /* TheBowlingGameKata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheBowlingGameKata-Prefix.pch"; sourceTree = "<group>"; };
-		4997A3A51922968600F53941 /* MFNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFNAppDelegate.h; sourceTree = "<group>"; };
-		4997A3A61922968600F53941 /* MFNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFNAppDelegate.m; sourceTree = "<group>"; };
 		4997A3A81922968600F53941 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4997A3AE1922968600F53941 /* TheBowlingGameKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBowlingGameKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4997A3AF1922968600F53941 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4997A3B71922968600F53941 /* TheBowlingGameKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheBowlingGameKataTests-Info.plist"; sourceTree = "<group>"; };
 		4997A3B91922968600F53941 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4997A3BB1922968600F53941 /* TheBowlingGameKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheBowlingGameKataTests.m; sourceTree = "<group>"; };
+		4997A3C51922974400F53941 /* TheBowlingGameKataTestsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheBowlingGameKataTestsSpec.m; sourceTree = "<group>"; };
+		4997A3CB19229AAE00F53941 /* MFNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNAppDelegate.h; sourceTree = "<group>"; };
+		4997A3CC19229AAE00F53941 /* MFNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNAppDelegate.m; sourceTree = "<group>"; };
+		5E590B16A64C40C4A80AE248 /* libPods-TheBowlingGameKataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheBowlingGameKataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6EC073841C4A7A90774435 /* Pods-TheBowlingGameKataTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBowlingGameKataTests.xcconfig"; path = "Pods/Pods-TheBowlingGameKataTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 				4997A3B01922968600F53941 /* XCTest.framework in Frameworks */,
 				4997A3B21922968600F53941 /* UIKit.framework in Frameworks */,
 				4997A3B11922968600F53941 /* Foundation.framework in Frameworks */,
+				72C8E02A80B2447E9B3E6B59 /* libPods-TheBowlingGameKataTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +85,7 @@
 				4997A3B51922968600F53941 /* TheBowlingGameKataTests */,
 				4997A3951922968600F53941 /* Frameworks */,
 				4997A3941922968600F53941 /* Products */,
+				EC6EC073841C4A7A90774435 /* Pods-TheBowlingGameKataTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +105,7 @@
 				4997A3981922968600F53941 /* CoreGraphics.framework */,
 				4997A39A1922968600F53941 /* UIKit.framework */,
 				4997A3AF1922968600F53941 /* XCTest.framework */,
+				5E590B16A64C40C4A80AE248 /* libPods-TheBowlingGameKataTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +113,7 @@
 		4997A39C1922968600F53941 /* TheBowlingGameKata */ = {
 			isa = PBXGroup;
 			children = (
-				4997A3A51922968600F53941 /* MFNAppDelegate.h */,
-				4997A3A61922968600F53941 /* MFNAppDelegate.m */,
+				4997A3C719229A2200F53941 /* Classes */,
 				4997A3A81922968600F53941 /* Images.xcassets */,
 				4997A39D1922968600F53941 /* Supporting Files */,
 			);
@@ -129,8 +134,8 @@
 		4997A3B51922968600F53941 /* TheBowlingGameKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				4997A3BB1922968600F53941 /* TheBowlingGameKataTests.m */,
 				4997A3B61922968600F53941 /* Supporting Files */,
+				4997A3C51922974400F53941 /* TheBowlingGameKataTestsSpec.m */,
 			);
 			path = TheBowlingGameKataTests;
 			sourceTree = "<group>";
@@ -142,6 +147,41 @@
 				4997A3B81922968600F53941 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4997A3C719229A2200F53941 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4997A3C919229A2F00F53941 /* Models */,
+				4997A3C819229A2700F53941 /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4997A3C819229A2700F53941 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4997A3CA19229A3500F53941 /* AppDelegate */,
+			);
+			name = Controllers;
+			path = Classes/Controllers;
+			sourceTree = "<group>";
+		};
+		4997A3C919229A2F00F53941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Classes/Models;
+			sourceTree = "<group>";
+		};
+		4997A3CA19229A3500F53941 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4997A3CB19229AAE00F53941 /* MFNAppDelegate.h */,
+				4997A3CC19229AAE00F53941 /* MFNAppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4997A3C21922968600F53941 /* Build configuration list for PBXNativeTarget "TheBowlingGameKataTests" */;
 			buildPhases = (
+				D85C43B7B68F45B080BA22D8 /* Check Pods Manifest.lock */,
 				4997A3AA1922968600F53941 /* Sources */,
 				4997A3AB1922968600F53941 /* Frameworks */,
 				4997A3AC1922968600F53941 /* Resources */,
+				F88313DED8C940E2B8CBC4D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,12 +277,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D85C43B7B68F45B080BA22D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F88313DED8C940E2B8CBC4D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TheBowlingGameKataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4997A38F1922968600F53941 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4997A3A71922968600F53941 /* MFNAppDelegate.m in Sources */,
+				4997A3CD19229AAE00F53941 /* MFNAppDelegate.m in Sources */,
 				4997A3A31922968600F53941 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4997A3BC1922968600F53941 /* TheBowlingGameKataTests.m in Sources */,
+				4997A3C61922974400F53941 /* TheBowlingGameKataTestsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +456,7 @@
 		};
 		4997A3C31922968600F53941 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6EC073841C4A7A90774435 /* Pods-TheBowlingGameKataTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheBowlingGameKata.app/TheBowlingGameKata";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -403,6 +479,7 @@
 		};
 		4997A3C41922968600F53941 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6EC073841C4A7A90774435 /* Pods-TheBowlingGameKataTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheBowlingGameKata.app/TheBowlingGameKata";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -438,6 +515,7 @@
 				4997A3C11922968600F53941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4997A3C21922968600F53941 /* Build configuration list for PBXNativeTarget "TheBowlingGameKataTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +524,7 @@
 				4997A3C41922968600F53941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
