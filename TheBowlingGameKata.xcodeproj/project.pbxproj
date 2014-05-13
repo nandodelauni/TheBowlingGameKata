@@ -19,6 +19,7 @@
 		4997A3BA1922968600F53941 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4997A3B81922968600F53941 /* InfoPlist.strings */; };
 		4997A3C61922974400F53941 /* TheBowlingGameKataTestsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3C51922974400F53941 /* TheBowlingGameKataTestsSpec.m */; };
 		4997A3CD19229AAE00F53941 /* MFNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3CC19229AAE00F53941 /* MFNAppDelegate.m */; };
+		4997A3D019229CC600F53941 /* MFNGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997A3CF19229CC600F53941 /* MFNGame.m */; };
 		72C8E02A80B2447E9B3E6B59 /* libPods-TheBowlingGameKataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E590B16A64C40C4A80AE248 /* libPods-TheBowlingGameKataTests.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		4997A3C51922974400F53941 /* TheBowlingGameKataTestsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheBowlingGameKataTestsSpec.m; sourceTree = "<group>"; };
 		4997A3CB19229AAE00F53941 /* MFNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNAppDelegate.h; sourceTree = "<group>"; };
 		4997A3CC19229AAE00F53941 /* MFNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNAppDelegate.m; sourceTree = "<group>"; };
+		4997A3CE19229CC600F53941 /* MFNGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNGame.h; sourceTree = "<group>"; };
+		4997A3CF19229CC600F53941 /* MFNGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNGame.m; sourceTree = "<group>"; };
 		5E590B16A64C40C4A80AE248 /* libPods-TheBowlingGameKataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheBowlingGameKataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6EC073841C4A7A90774435 /* Pods-TheBowlingGameKataTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBowlingGameKataTests.xcconfig"; path = "Pods/Pods-TheBowlingGameKataTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +173,8 @@
 		4997A3C919229A2F00F53941 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4997A3CE19229CC600F53941 /* MFNGame.h */,
+				4997A3CF19229CC600F53941 /* MFNGame.m */,
 			);
 			name = Models;
 			path = Classes/Models;
@@ -317,6 +322,7 @@
 			files = (
 				4997A3CD19229AAE00F53941 /* MFNAppDelegate.m in Sources */,
 				4997A3A31922968600F53941 /* main.m in Sources */,
+				4997A3D019229CC600F53941 /* MFNGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
