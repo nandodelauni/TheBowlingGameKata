@@ -9,6 +9,8 @@
 #import "MFNGame.h"
 
 NSUInteger const kRollMax = 21;
+NSUInteger const kFramesPerGame = 10;
+NSUInteger const kPinsPerFrame = 10;
 
 @interface MFNGame ()
 
@@ -35,13 +37,13 @@ NSUInteger const kRollMax = 21;
 {
     NSUInteger score = 0;
     int frameIndex = 0;
-    for (int frame = 0; frame < 10; frame++) {
+    for (int frame = 0; frame < kFramesPerGame; frame++) {
         if ([self isStrike:frameIndex]) {
-            score += 10 + [self strikeBonus:frameIndex];
+            score += kPinsPerFrame + [self strikeBonus:frameIndex];
             frameIndex++;
         }
         else if ([self isSpare:frameIndex]) {
-            score += 10 + [self spareBonus:frameIndex];
+            score += kPinsPerFrame + [self spareBonus:frameIndex];
             frameIndex += 2;
         }
         else {
@@ -60,12 +62,12 @@ NSUInteger const kRollMax = 21;
 
 - (BOOL)isStrike:(NSInteger)frameIndex
 {
-    return [self.rolls[frameIndex] integerValue] == 10;
+    return [self.rolls[frameIndex] integerValue] == kPinsPerFrame;
 }
 
 - (BOOL)isSpare:(NSInteger)frameIndex
 {
-    return [self.rolls[frameIndex] integerValue] + [self.rolls[frameIndex + 1] integerValue] == 10;
+    return [self.rolls[frameIndex] integerValue] + [self.rolls[frameIndex + 1] integerValue] == kPinsPerFrame;
 }
 
 - (NSInteger)sumOfBallsInFrame:(NSInteger)frameIndex
